@@ -1,0 +1,78 @@
+.heading {
+    color:white;
+    background-color: red;
+}
+#header {
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+    color: tomato;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2em;
+}
+h1 {
+    text-align: center;
+    font-size: 3em;
+    margin: 0;
+    padding: 10px;
+    background-color: #00000078;
+    color: white;
+    text-shadow: 2px 2px 4px #0000006c;
+}
+.recipe {
+    height: 500px;
+    width: 800px;
+    position: relative;
+    border: 2px solid black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    margin: 10px;
+}
+#pancakes1{
+    background-image: url('../Images/Cheesecake Pancakes.png');
+}
+#pancakes2{
+    background-image: url('../Images/Croissant French Toast.png');
+}
+#prawn1{
+    background-image: url('../Images/Avocado prawn.png');
+}
+#prawn2{
+    background-image: url('../Images/Cod in Tomatoe.png');
+}
+#prawn3{
+    background-image: url('../Images/prawn provencale.png');
+}
+#prawn4{
+    background-image: url('../Images/prawn saganaki.png');
+}
+span {
+    color: white;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    font-size: 1.6em;
+    text-shadow: 2px 2px 4px #0000006c;
+    background-color: #000000;
+    opacity: .8;
+}
+div {
+    display: block;
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+}
+a {
+    background-color: transparent;
+    text-decoration: none;
+}
